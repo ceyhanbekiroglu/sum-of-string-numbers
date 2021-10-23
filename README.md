@@ -5,7 +5,9 @@ What is it?
 It is a simple library to sum numbers which are used in a string.
 
 Installation
+```sh
 $ npm i sum-of-string-numbers
+```
 
 Usage
 As with most npm libraries, you just need to import it in a file
