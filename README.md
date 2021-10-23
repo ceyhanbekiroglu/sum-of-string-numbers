@@ -4,6 +4,14 @@ What is it?
 
 It is a simple library to sum numbers which are used in a string.
 
+Example:
+
+```js
+Example string: ("Capt. Jack Sparrow was born in 10/10/1789");
+```
+
+This library will check the string and will take the numbers and will return 10+10+1789= 1809.
+
 Installation
 
 ```sh
