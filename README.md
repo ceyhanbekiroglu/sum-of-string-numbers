@@ -13,8 +13,8 @@ $ npm i sum-of-string-numbers
 ## Usage
 
 ```js
-const sumFromString = require("sum-of-string-numbers")();
-const sum = sumFromString("Capt. Jack Sparrow was born in 10/10/1789");
+const sumOfStringNumbers = require("sum-of-string-numbers")();
+const sum = sumOfStringNumbers("Capt. Jack Sparrow was born in 10/10/1789");
 console.log(sum); // logs 1809
 ```
 
