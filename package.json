@@ -1,0 +1,25 @@
+{
+  "name": "sum-of-string-numbers",
+  "version": "1.0.0",
+  "description": "It is a simple library to sum numbers which are used in a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceyhanbekiroglu/sum-of-string-numbers.git"
+  },
+  "keywords": [
+    "math"
+  ],
+  "author": "Ceyhan Bekiroglu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ceyhanbekiroglu/sum-of-string-numbers/issues"
+  },
+  "homepage": "https://github.com/ceyhanbekiroglu/sum-of-string-numbers#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
