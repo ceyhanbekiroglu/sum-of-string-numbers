@@ -1,34 +1,43 @@
 # sum-of-string-numbers
 
-What is it?
+# What is it?
 
-It is a simple library to sum numbers which are used in a string.
+It is a simple library to sum numbers which are used in a string. Inspired by a codewars kata.
 
-Example:
-
-```js
-Example string: ("Capt. Jack Sparrow was born in 10/10/1789");
-```
-
-This library will check the string and will take the numbers and will return 10+10+1789= 1809.
-
-Installation
+## Installation
 
 ```sh
 $ npm i sum-of-string-numbers
 ```
 
-Usage
-As with most npm libraries, you just need to import it in a file
+## Usage
 
 ```js
-require("sum-of-string-numbers")();
+const sumFromString = require("sum-of-string-numbers")();
+const sum = sumFromString("Capt. Jack Sparrow was born in 10/10/1789");
+console.log(sum); // logs 1809
 ```
 
-or you can use only on development environment
+# LICENSE
 
-```js
-const sumOfStringNumbers = require("sum-of-string-numbers");
+MIT License
 
-if (process.env.NODE_ENV == "development") sumOfStringNumbers();
-```
+Copyright (c) 2021 Ceyhan Bekiroglu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
